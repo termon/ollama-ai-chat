@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "vite:dev": "vite",
+        "build": "vite build",
+        "php:serve": "php artisan serve",
+        "php:pail": "php artisan pail",
+        "format": "npx prettier --write resources/",
+        "dev": "concurrently -k -p \"[{name}]\" -c \"blue.bold,green.bold\" \"npm:php:serve\" \"npm:vite:dev\" "
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.6",
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.47",
+        "prettier-plugin-blade": "^2.1.19",
+        "prettier-plugin-tailwindcss": "^0.6.6",
+        "tailwindcss": "^4.0.6",
+        "vite": "^6.0.11"
+    }
+}
