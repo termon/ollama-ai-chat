@@ -10,9 +10,6 @@
         <x-ui.tabs.tab name="Ollama QS">
             <livewire:ollama-question-stream/>
         </x-ui.tabs.tab>
-        <x-ui.tabs.tab name="Ollama C">
-            <livewire:ollama-conversation/>
-        </x-ui.tabs.tab>
         <x-ui.tabs.tab name="Ollama CS">
             <livewire:ollama-conversation-stream/>
         </x-ui.tabs.tab>

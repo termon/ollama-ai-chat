@@ -137,16 +137,16 @@
         },
         {
             "name": "cloudstudio/ollama-laravel",
-            "version": "v1.1.1",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudstudio/ollama-laravel.git",
-                "reference": "fb04227369073fa0ddfd479a1913d53f4a3c2f1f"
+                "reference": "c728f82831875577975786253b1262f383649573"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudstudio/ollama-laravel/zipball/fb04227369073fa0ddfd479a1913d53f4a3c2f1f",
-                "reference": "fb04227369073fa0ddfd479a1913d53f4a3c2f1f",
+                "url": "https://api.github.com/repos/cloudstudio/ollama-laravel/zipball/c728f82831875577975786253b1262f383649573",
+                "reference": "c728f82831875577975786253b1262f383649573",
                 "shasum": ""
             },
             "require": {
@@ -200,9 +200,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cloudstudio/ollama-laravel/issues",
-                "source": "https://github.com/cloudstudio/ollama-laravel/tree/v1.1.1"
+                "source": "https://github.com/cloudstudio/ollama-laravel/tree/v1.1.3"
             },
-            "time": "2025-02-06T10:15:11+00:00"
+            "time": "2025-02-16T17:34:02+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2208,23 +2208,23 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.5.19",
+            "version": "v3.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "3f1b2c134cde537bb7666e490ea21a8ffc8bbf14"
+                "reference": "509f2258c51741f6d06deb65d4437654520694e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/3f1b2c134cde537bb7666e490ea21a8ffc8bbf14",
-                "reference": "3f1b2c134cde537bb7666e490ea21a8ffc8bbf14",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/509f2258c51741f6d06deb65d4437654520694e6",
+                "reference": "509f2258c51741f6d06deb65d4437654520694e6",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "^10.0|^11.0",
-                "illuminate/routing": "^10.0|^11.0",
-                "illuminate/support": "^10.0|^11.0",
-                "illuminate/validation": "^10.0|^11.0",
+                "illuminate/database": "^10.0|^11.0|^12.0",
+                "illuminate/routing": "^10.0|^11.0|^12.0",
+                "illuminate/support": "^10.0|^11.0|^12.0",
+                "illuminate/validation": "^10.0|^11.0|^12.0",
                 "laravel/prompts": "^0.1.24|^0.2|^0.3",
                 "league/mime-type-detection": "^1.9",
                 "php": "^8.1",
@@ -2233,11 +2233,11 @@
             },
             "require-dev": {
                 "calebporzio/sushi": "^2.1",
-                "laravel/framework": "^10.15.0|^11.0",
+                "laravel/framework": "^10.15.0|^11.0|^12.0",
                 "mockery/mockery": "^1.3.1",
-                "orchestra/testbench": "^8.21.0|^9.0",
-                "orchestra/testbench-dusk": "^8.24|^9.1",
-                "phpunit/phpunit": "^10.4",
+                "orchestra/testbench": "^8.21.0|^9.0|^10.0",
+                "orchestra/testbench-dusk": "^8.24|^9.1|^10.0",
+                "phpunit/phpunit": "^10.4|^11.5",
                 "psy/psysh": "^0.11.22|^0.12"
             },
             "type": "library",
@@ -2272,7 +2272,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.5.19"
+                "source": "https://github.com/livewire/livewire/tree/v3.5.20"
             },
             "funding": [
                 {
@@ -2280,7 +2280,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-28T21:39:51+00:00"
+            "time": "2025-02-13T21:05:24+00:00"
         },
         {
             "name": "livewire/volt",
@@ -6016,11 +6016,11 @@
         },
         {
             "name": "termon/ui",
-            "version": "1.3.23",
+            "version": "1.3.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/termon/ui",
-                "reference": "ae2b1f8db8a497e1078067e12567f7c60ed8ec9c"
+                "reference": "a9527ed8271106a59b31f6579e8ead7cd2320be2"
             },
             "type": "library",
             "extra": {
@@ -6042,7 +6042,7 @@
                 }
             ],
             "description": "Set of Blade View Components",
-            "time": "2025-02-10T14:15:21+00:00"
+            "time": "2025-02-17T13:24:31+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
